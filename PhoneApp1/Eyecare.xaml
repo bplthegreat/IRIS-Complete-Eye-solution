@@ -1,0 +1,188 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="PhoneApp1.Eyecare"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot">
+        <Grid.Background>
+            <ImageBrush Stretch="Fill" ImageSource="/Assets/cool-nature-template-backgrounds-powerpoint.jpg"/>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock Foreground="White" Text="BRIEF" Style="{StaticResource PhoneTextNormalStyle}" Margin="404,0,12,0"/>
+            <TextBlock Foreground="White" Text="Clinics" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}" HorizontalAlignment="Center" Width="459"/>
+        </StackPanel>
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+            <Rectangle HorizontalAlignment="Left" Height="613" Margin="10,138,0,-590" Stroke="Black" StrokeThickness="0" VerticalAlignment="Top" Width="436" Fill="White"/>
+            <Rectangle HorizontalAlignment="Left" Height="160" Margin="10,141,0,-140" Stroke="Black" StrokeThickness="0" VerticalAlignment="Top" Width="436">
+                <Rectangle.Fill>
+                    <ImageBrush Stretch="Fill" ImageSource="/Assets/tilgangaLogo.png"/>
+                </Rectangle.Fill>
+            </Rectangle>
+        </Grid>
+        <TextBlock HorizontalAlignment="Left" Height="35" Margin="12,-255,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="389">
+        	<Run Text="-------------------------------------------------">
+        		<Run.Foreground>
+        			<SolidColorBrush Color="#FF005B7F">
+        				<SolidColorBrush.RelativeTransform>
+        					<MatrixTransform Matrix="Identity"/>
+        				</SolidColorBrush.RelativeTransform>
+        				<SolidColorBrush.Transform>
+        					<MatrixTransform Matrix="Identity"/>
+        				</SolidColorBrush.Transform>
+        			</SolidColorBrush>
+        		</Run.Foreground>
+        	</Run>
+        </TextBlock>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Height="230" Margin="42,310,0,-379" TextWrapping="Wrap" VerticalAlignment="Top" Width="396" Foreground="#FF3C3333" FontSize="14">
+        	<Run Text="Tilganga Eye Clinic"/>
+        	<LineBreak/>
+        	<Run Text="Tilganga, Kathmandu, Nepal"/>
+        	<LineBreak/>
+        	<Run Text="01-4********"/>
+        	<LineBreak/>
+        	<Run Text="-----------------------------------------------"/>
+        	<LineBreak/>
+        	<Run Text="Hospital Working Hours"/>
+        	<LineBreak/>
+        	<Run Text="Sunday to Friday 8:00 AM to 6:00 PM (12:00 to 12:30 lunch break)"/>
+        	<LineBreak/>
+        	<Run Text="Registration Time : 8:00 AM to 12 PM (General Clinic)"/>
+        	<LineBreak/>
+        	<Run Text="------------------------------------------------"/>
+        	<LineBreak/>
+        	<Run Text="Registration Time : 3:30 PM to 4:30 PM (Extended Clinic)"/>
+        	<LineBreak/>
+        	<Run Text="Emergency service 24*7"/>
+        	<LineBreak/>
+        	<Run Text="Saturday we are closed for general eye check up"/>
+        </TextBlock>
+        <ScrollViewer HorizontalAlignment="Left" Height="188" Margin="34,545,0,-572" VerticalAlignment="Top" Width="416">
+            <TextBlock x:Name="textBlock1" Height="1577" TextWrapping="Wrap" Width="370" Foreground="#FF191919">
+            	<Run Text="Surgeries"/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="    Cataract/IOL including Phaco emulsification"/>
+            	<LineBreak/>
+            	<Run Text="    Yag Laser treatment"/>
+            	<LineBreak/>
+            	<Run Text="    Glaucoma"/>
+            	<LineBreak/>
+            	<Run Text="    Lamellar keratoplastyLASIK/Penetrating keratoplasty"/>
+            	<LineBreak/>
+            	<Run Text="    Squint Correction surgery"/>
+            	<LineBreak/>
+            	<Run Text="    Lid Surgery"/>
+            	<LineBreak/>
+            	<Run Text="    Vitreo-retinal Surgery with Introcular Gases, Silicon Oil and Endo Laser"/>
+            	<LineBreak/>
+            	<Run Text="    Diode Laser"/>
+            	<LineBreak/>
+            	<Run Text="    Orbital Surgery"/>
+            	<LineBreak/>
+            	<Run Text="    Other Minor surgeries"/>
+            	<LineBreak/>
+            	<Run Text="    Clinics"/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text=" "/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="General Ophthalmology"/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="    Cornea and external eye Diseases"/>
+            	<LineBreak/>
+            	<Run Text="    Vitreo - retina"/>
+            	<LineBreak/>
+            	<Run Text="    Uvea"/>
+            	<LineBreak/>
+            	<Run Text="    Glaucoma"/>
+            	<LineBreak/>
+            	<Run Text="    Oculoplastic"/>
+            	<LineBreak/>
+            	<Run Text="    Paediatric Ophthamlmology"/>
+            	<LineBreak/>
+            	<Run Text="    24 hour emergency services"/>
+            	<LineBreak/>
+            	<Run Text="    Externed hospital based services"/>
+            	<LineBreak/>
+            	<Run Text="    Investigations/OPD Procedures"/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text=" "/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Biometry"/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="    Auto Refraction"/>
+            	<LineBreak/>
+            	<Run Text="    Automated Visual Fields"/>
+            	<LineBreak/>
+            	<Run Text="    A-Scan/B-Scan"/>
+            	<LineBreak/>
+            	<Run Text="    Keratometry"/>
+            	<LineBreak/>
+            	<Run Text="    Pachymetry"/>
+            	<LineBreak/>
+            	<Run Text="    Corneal Topography"/>
+            	<LineBreak/>
+            	<Run Text="    Anterior Segment Photography"/>
+            	<LineBreak/>
+            	<Run Text="    Pentacam"/>
+            	<LineBreak/>
+            	<Run Text="    FFA/ Posterior Segment P"/>
+            	<LineBreak/>
+            	<Run Text="    OCT"/>
+            	<LineBreak/>
+            	<Run Text="    IOL MASTER"/>
+            	<LineBreak/>
+            	<Run Text="    100 Hue test"/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text=" "/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Pathology Lab"/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="    Haematology"/>
+            	<LineBreak/>
+            	<Run Text="    Biochemestry"/>
+            	<LineBreak/>
+            	<Run Text="    Microbiology"/>
+            	<LineBreak/>
+            	<Run Text="    Serology"/>
+            </TextBlock>
+        </ScrollViewer>
+    </Grid>
+
+</phone:PhoneApplicationPage>

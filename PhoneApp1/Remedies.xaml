@@ -1,0 +1,62 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="PhoneApp1.Remedies"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot">
+        <Grid.Background>
+            <ImageBrush Stretch="Fill" ImageSource="/Assets/cool-nature-template-backgrounds-powerpoint.jpg"/>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock Text="Remedies"  Foreground="White" Style="{StaticResource PhoneTextNormalStyle}" Margin="362,0,12,0"/>
+            <HyperlinkButton x:Name="EYE"  Foreground="White" Content="EYE" HorizontalAlignment="Right" Height="53" Margin="0,0,244,0" Width="83" Click="EYE_Click"/>
+        </StackPanel>
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+
+        </Grid>
+        <HyperlinkButton Content="DEFECTS"  Foreground="White" HorizontalAlignment="Left" Height="34" Margin="224,0,0,605" VerticalAlignment="Bottom" Width="116" Background="{x:Null}" BorderThickness="3" Click="HyperlinkButton_Click"/>
+        <HyperlinkButton Content="REMEDIES"  Foreground="White" HorizontalAlignment="Left" Height="34" Margin="340,0,0,605" VerticalAlignment="Bottom" Width="132" Background="#FF515151" BorderThickness="3" Click="HyperlinkButton_Click_2"/>
+        <HyperlinkButton x:Name="HOME"  Foreground="White" Content="HOME" HorizontalAlignment="Left" Margin="7,57,0,605" Width="116" Background="{x:Null}" BorderThickness="3" Click="HyperlinkButton_Click_1"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="651" Margin="32,87,0,0" Stroke="Black" VerticalAlignment="Top" Width="424" OpacityMask="#FF005B7F" Grid.RowSpan="2"/>
+        <Button x:Name="button_Water"   Content="Effects of Drinking Water" HorizontalAlignment="Left" Height="173" Margin="30,85,0,0" VerticalAlignment="Top" Width="424" Click="button_conjuctivi_Click" Opacity="0.5">
+            <Button.Background>
+                <ImageBrush Stretch="Fill" ImageSource="/Assets/drink water.jpg"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="button_fiveways"  Content="Ways to Clean your Eyes" HorizontalAlignment="Left" Height="176" Margin="30,245,0,0" VerticalAlignment="Top" Width="424" Opacity="0.5">
+            <Button.Background>
+                <ImageBrush Stretch="Fill" ImageSource="/Assets/clean eyes.jpg"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="button_GlassLens"  Content="Glasses Or Lenses?" HorizontalAlignment="Left" Height="173" Margin="30,406,0,0" VerticalAlignment="Top" Width="424" Opacity="0.5">
+            <Button.Background>
+                <ImageBrush Stretch="Fill" ImageSource="/Assets/contact vs glass.jpg"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="button_Dust" Content="Protect Eyes from Dust" HorizontalAlignment="Left" Height="170" Margin="30,566,0,0" VerticalAlignment="Top" Width="424" Grid.RowSpan="2" Click="button_Dust_Click" Opacity="0.5">
+            <Button.Background>
+                <ImageBrush Stretch="Fill" ImageSource="/Assets/protect frm dirt.jpg"/>
+            </Button.Background>
+        </Button>
+    </Grid>
+
+</phone:PhoneApplicationPage>

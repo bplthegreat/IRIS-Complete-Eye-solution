@@ -1,0 +1,198 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="PhoneApp1.ways"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot">
+        <Grid.Background>
+            <ImageBrush Stretch="Fill" ImageSource="/Assets/cool-nature-template-backgrounds-powerpoint.jpg"/>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock Text="Remedies" Style="{StaticResource PhoneTextNormalStyle}" Margin="364,0,12,0"/>
+            <TextBlock Text="Glasses or lens?" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}" FontSize="48"/>
+        </StackPanel>
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+
+        </Grid>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="629" Margin="7,0,0,0" Grid.Row="1" Stroke="Black" VerticalAlignment="Top" Width="461"/>
+        <Rectangle HorizontalAlignment="Left" Height="191" Margin="20,10,0,0" Grid.Row="1" Stroke="Black" VerticalAlignment="Top" Width="438">
+            <Rectangle.Fill>
+                <ImageBrush Stretch="Fill" ImageSource="/Assets/contact vs glass.jpg"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <ScrollViewer HorizontalAlignment="Left" Height="403" Margin="20,206,0,0" Grid.Row="1" VerticalAlignment="Top" Width="438">
+            <TextBlock x:Name="textBlock" Height="2462" TextWrapping="Wrap" Width="428" Foreground="Black" FontSize="24">
+            	<Span>
+            		<Run Text="Whether you choose to wear eyeglasses or contact lenses for vision correction mostly depends on personal preferences. Lifestyle, comfort, convenience, budget and aesthetics should all factor into your decision-making process."/>
+            	</Span>
+            	<LineBreak/>
+            	<LineBreak/>
+            	<Span>
+            		<Run Text="Before deciding between contacts and glasses, keep in mind that one is not necessarily better than the other; each has its pros and cons in terms of vision, ease of use and eye health."/>
+            	</Span>
+            	<LineBreak/>
+            	<LineBreak/>
+            	<Span>
+            		<Run Text="Eyeglasses offer many benefits over contact lenses. They require very little cleaning and maintenance, you don't need to touch your eyes to wear them (decreasing your risk for eye infections), and glasses are cheaper than contact lenses in the long run since they don't need to be replaced as often."/>
+            	</Span>
+            	<LineBreak/>
+            	<LineBreak/>
+            	<Span>
+            		<Run Text="Glasses also can act as an extension of your personality and make a great fashion statement!"/>
+            	</Span>
+            	<LineBreak/>
+            	<LineBreak/>
+            	<Span>
+            		<Run Text="That being said, contact lenses have many advantages over glasses. Contacts sit directly on your eye, so vision, particularly peripheral vision, is unobstructed. You can participate in sports and outdoor activities without fear of eyeglasses getting in the way, falling off or breaking. You can even change the color of your eyes with color contact lenses."/>
+            	</Span>
+            	<LineBreak/>
+            	<LineBreak/>
+            	<Span FontFamily="Lucida Console">
+            		<Run Text="So which are better for your particular needs and lifestyle "/>
+            	</Span>
+            	<Span>
+            		<Run Text="— glasses or contacts? Here's a breakdown of the advantages and disadvantages of each type of eyewear to help you choose."/>
+            	</Span>
+            	<LineBreak/>
+            	<Span>
+            		<Run Text="Contact Lenses Pros and Cons Advantages &#x9;Disadvantages"/>
+            	</Span>
+            	<LineBreak/>
+            	<LineBreak/>
+            	<Span>
+            		<Run Text="? Contacts conform to the curvature of your eye, providing a wider field of view and causing less vision distortions and obstructions than eyeglasses."/>
+            	</Span>
+            	<LineBreak/>
+            	<LineBreak/>
+            	<Span>
+            		<Run Text="? Contact lenses don't get in the way when playing sports and exercising."/>
+            	</Span>
+            	<LineBreak/>
+            	<LineBreak/>
+            	<Span>
+            		<Run Text="? Contact lenses won't clash with what you're wearing."/>
+            	</Span>
+            	<LineBreak/>
+            	<LineBreak/>
+            	<Span>
+            		<Run Text="? Contacts typically aren't affected by weather conditions and won't fog up in cold weather like glasses."/>
+            	</Span>
+            	<LineBreak/>
+            	<LineBreak/>
+            	<Span>
+            		<Run Text="? If you want to see how you would look with a different eye color, you can experiment with color contact lenses. You can even purchase special-effect contacts to match your Halloween or fancy dress costume!"/>
+            	</Span>
+            	<LineBreak/>
+            	<LineBreak/>
+            	<Span>
+            		<Run Text="? Some contact lenses can reshape your cornea while you sleep. Overnight orthokeratology (Ortho-k) temporarily corrects myopia, so you can see clearly the next day without the need for glasses or contacts."/>
+            	</Span>
+            	<LineBreak/>
+            	<Span>
+            		<Run Text="&#x9;"/>
+            	</Span>
+            	<LineBreak/>
+            	<Span>
+            		<Run Text="? Some people have trouble applying a contact lens to their eye (but proper technique and practice should rectify this in most cases)."/>
+            	</Span>
+            	<LineBreak/>
+            	<LineBreak/>
+            	<Span>
+            		<Run Text="? Contacts reduce the amount of oxygen reaching your eye and can cause or increase the severity of dry eye syndrome."/>
+            	</Span>
+            	<LineBreak/>
+            	<LineBreak/>
+            	<Span>
+            		<Run Text="? If you work at a computer often, wearing contact lenses will likely contribute to symptoms of computer vision syndrome."/>
+            	</Span>
+            	<LineBreak/>
+            	<LineBreak/>
+            	<Span>
+            		<Run Text="? Contacts require proper lens care and lens case cleaning each day, to avoid potentially serious eye infections. If you can't commit to the care and recommended replacement cycle of your contacts, consider daily disposables."/>
+            	</Span>
+            	<LineBreak/>
+            	<LineBreak/>
+            	<Span>
+            		<Run Text="? If you accidentally fall asleep while wearing daily wear contacts, your eyes typically will be dry, gritty, red and irritated when you wake. If you find yourself frequently falling asleep with your contacts in, consider extended wear contact lenses — some extended wear contacts are approved for up to 30 days of continuous wear."/>
+            	</Span>
+            	<LineBreak/>
+            	<Span>
+            		<Run Text="Eyeglasses Pros and Cons Advantages &#x9;Disadvantages"/>
+            	</Span>
+            	<LineBreak/>
+            	<LineBreak/>
+            	<Span>
+            		<Run Text="? Wearing glasses reduces the need to touch your eyes, which in turn reduces the likelihood of irritating your eyes or developing an eye infection."/>
+            	</Span>
+            	<LineBreak/>
+            	<LineBreak/>
+            	<Span>
+            		<Run Text="? If you have dry or sensitive eyes, glasses won't exacerbate the problem like contact lenses can."/>
+            	</Span>
+            	<LineBreak/>
+            	<LineBreak/>
+            	<Span>
+            		<Run Text="? Eyeglasses generally are cheaper than contact lenses over the long term. You don't need to replace glasses as often (unless you break them!) and if your prescription changes over time, you may be able to keep your current frames and just replace the lenses."/>
+            	</Span>
+            	<LineBreak/>
+            	<LineBreak/>
+            	<Span>
+            		<Run Text="? Frames are fashionable and can speak volumes about your personality and style — the look of your glasses can make a bold statement."/>
+            	</Span>
+            	<LineBreak/>
+            	<LineBreak/>
+            	<Span>
+            		<Run Text="? Glasses offer some protection from environmental factors such as wind, dust and debris."/>
+            	</Span>
+            	<LineBreak/>
+            	<Span>
+            		<Run Text="&#x9;"/>
+            	</Span>
+            	<LineBreak/>
+            	<Span>
+            		<Run Text="? Eyeglasses sit about 12mm (about a half inch) from your eyes, so peripheral vision can be distorted. Many people also report difficulty focusing on objects and blurry vision when they first start wearing glasses or change prescriptions."/>
+            	</Span>
+            	<LineBreak/>
+            	<LineBreak/>
+            	<Span>
+            		<Run Text="? Some people don't like how they look in glasses and feel it detracts from their facial aesthetics or hides their features."/>
+            	</Span>
+            	<LineBreak/>
+            	<LineBreak/>
+            	<Span>
+            		<Run Text="? If you have a strong prescription, the edges of your lenses may be thick and unappealing or your glasses might make your eyes appear unnaturally minified or magnified."/>
+            	</Span>
+            	<LineBreak/>
+            	<LineBreak/>
+            	<Span>
+            		<Run Text="? Eyeglasses can be affected by the elements — your vision can be obstructed or blurred by precipitation collecting on your lenses or when they fog up in cold weather."/>
+            	</Span>
+            	<LineBreak/>
+            	<LineBreak/>
+            	<Span FontFamily="Lucida Console">
+            		<Run Text="? Some frames can exert constant pressure on your nose and behind your ears, leading to headaches and general discomfort."/>
+            	</Span>
+            </TextBlock>
+        </ScrollViewer>
+    </Grid>
+
+</phone:PhoneApplicationPage>

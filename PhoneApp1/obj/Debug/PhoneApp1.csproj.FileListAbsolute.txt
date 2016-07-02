@@ -1,0 +1,90 @@
+C:\Users\Shova Thapa\documents\visual studio 2013\Projects\PhoneApp1\PhoneApp1\Bin\Debug\Assets\ApplicationIcon.png
+C:\Users\Shova Thapa\documents\visual studio 2013\Projects\PhoneApp1\PhoneApp1\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+C:\Users\Shova Thapa\documents\visual studio 2013\Projects\PhoneApp1\PhoneApp1\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+C:\Users\Shova Thapa\documents\visual studio 2013\Projects\PhoneApp1\PhoneApp1\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+C:\Users\Shova Thapa\documents\visual studio 2013\Projects\PhoneApp1\PhoneApp1\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+C:\Users\Shova Thapa\documents\visual studio 2013\Projects\PhoneApp1\PhoneApp1\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+C:\Users\Shova Thapa\documents\visual studio 2013\Projects\PhoneApp1\PhoneApp1\Bin\Debug\PhoneApp1.dll
+C:\Users\Shova Thapa\documents\visual studio 2013\Projects\PhoneApp1\PhoneApp1\Bin\Debug\PhoneApp1.pdb
+C:\Users\Shova Thapa\documents\visual studio 2013\Projects\PhoneApp1\PhoneApp1\obj\Debug\App.g.cs
+C:\Users\Shova Thapa\documents\visual studio 2013\Projects\PhoneApp1\PhoneApp1\obj\Debug\Contact us.g.cs
+C:\Users\Shova Thapa\documents\visual studio 2013\Projects\PhoneApp1\PhoneApp1\obj\Debug\linkup.g.cs
+C:\Users\Shova Thapa\documents\visual studio 2013\Projects\PhoneApp1\PhoneApp1\obj\Debug\MainPage.g.cs
+C:\Users\Shova Thapa\documents\visual studio 2013\Projects\PhoneApp1\PhoneApp1\obj\Debug\NormalMode.g.cs
+C:\Users\Shova Thapa\documents\visual studio 2013\Projects\PhoneApp1\PhoneApp1\obj\Debug\profile.g.cs
+C:\Users\Shova Thapa\documents\visual studio 2013\Projects\PhoneApp1\PhoneApp1\obj\Debug\PhoneApp1.g.resources
+C:\Users\Shova Thapa\documents\visual studio 2013\Projects\PhoneApp1\PhoneApp1\obj\Debug\PhoneApp1.Resources.AppResources.resources
+C:\Users\Shova Thapa\documents\visual studio 2013\Projects\PhoneApp1\PhoneApp1\obj\Debug\PhoneApp1.csproj.GenerateResource.Cache
+C:\Users\Shova Thapa\documents\visual studio 2013\Projects\PhoneApp1\PhoneApp1\obj\Debug\PhoneApp1.dll
+C:\Users\Shova Thapa\documents\visual studio 2013\Projects\PhoneApp1\PhoneApp1\obj\Debug\PhoneApp1.pdb
+C:\Users\Shova Thapa\documents\visual studio 2013\Projects\PhoneApp1\PhoneApp1\Bin\Debug\AppManifest.xaml
+C:\Users\Shova Thapa\documents\visual studio 2013\Projects\PhoneApp1\PhoneApp1\Bin\Debug\Properties\WMAppManifest.xml
+C:\Users\Shova Thapa\documents\visual studio 2013\Projects\PhoneApp1\PhoneApp1\Bin\Debug\PhoneApp1_Debug_AnyCPU.xap
+C:\Users\Shova Thapa\documents\visual studio 2013\Projects\PhoneApp1\PhoneApp1\obj\Debug\XapCacheFile.xml
+C:\Users\Shova Thapa\Documents\Visual Studio 2013\Projects\PhoneApp1\PhoneApp1\obj\Debug\Page3.g.cs
+C:\Users\Shova Thapa\Documents\Visual Studio 2013\Projects\PhoneApp1\PhoneApp1\obj\Debug\Page2.g.cs
+C:\Users\Shova Thapa\Documents\Visual Studio 2013\Projects\PhoneApp1\PhoneApp1\obj\Debug\FeedPage.g.cs
+C:\Users\Shova Thapa\Documents\Visual Studio 2013\Projects\PhoneApp1\PhoneApp1\obj\Debug\Page4.g.cs
+C:\Users\Shova Thapa\Documents\Visual Studio 2013\Projects\PhoneApp1\PhoneApp1\obj\Debug\Page5.g.cs
+C:\Users\Shova Thapa\Documents\Visual Studio 2013\Projects\PhoneApp1\PhoneApp1\obj\Debug\Page6.g.cs
+C:\Users\Shova Thapa\Documents\Visual Studio 2013\Projects\PhoneApp1\PhoneApp1\obj\Debug\Page7.g.cs
+C:\Users\Shova Thapa\Documents\Visual Studio 2013\Projects\PhoneApp1\PhoneApp1\obj\Debug\Page8.g.cs
+D:\Programming\PhoneApp1\PhoneApp1\Bin\Debug\Assets\ApplicationIcon.png
+D:\Programming\PhoneApp1\PhoneApp1\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+D:\Programming\PhoneApp1\PhoneApp1\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+D:\Programming\PhoneApp1\PhoneApp1\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+D:\Programming\PhoneApp1\PhoneApp1\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+D:\Programming\PhoneApp1\PhoneApp1\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+D:\Programming\PhoneApp1\PhoneApp1\Bin\Debug\PhoneApp1.dll
+D:\Programming\PhoneApp1\PhoneApp1\Bin\Debug\PhoneApp1.pdb
+D:\Programming\PhoneApp1\PhoneApp1\obj\Debug\App.g.cs
+D:\Programming\PhoneApp1\PhoneApp1\obj\Debug\Contact us.g.cs
+D:\Programming\PhoneApp1\PhoneApp1\obj\Debug\Defects.g.cs
+D:\Programming\PhoneApp1\PhoneApp1\obj\Debug\FeedPage.g.cs
+D:\Programming\PhoneApp1\PhoneApp1\obj\Debug\EYE.g.cs
+D:\Programming\PhoneApp1\PhoneApp1\obj\Debug\MainPage.g.cs
+D:\Programming\PhoneApp1\PhoneApp1\obj\Debug\Page2.g.cs
+D:\Programming\PhoneApp1\PhoneApp1\obj\Debug\Page3.g.cs
+D:\Programming\PhoneApp1\PhoneApp1\obj\Debug\Page4.g.cs
+D:\Programming\PhoneApp1\PhoneApp1\obj\Debug\Page5.g.cs
+D:\Programming\PhoneApp1\PhoneApp1\obj\Debug\Page6.g.cs
+D:\Programming\PhoneApp1\PhoneApp1\obj\Debug\Page7.g.cs
+D:\Programming\PhoneApp1\PhoneApp1\obj\Debug\Page8.g.cs
+D:\Programming\PhoneApp1\PhoneApp1\obj\Debug\profile.g.cs
+D:\Programming\PhoneApp1\PhoneApp1\obj\Debug\Remedies.g.cs
+D:\Programming\PhoneApp1\PhoneApp1\obj\Debug\PhoneApp1.g.resources
+D:\Programming\PhoneApp1\PhoneApp1\obj\Debug\PhoneApp1.Resources.AppResources.resources
+D:\Programming\PhoneApp1\PhoneApp1\obj\Debug\PhoneApp1.csproj.GenerateResource.Cache
+D:\Programming\PhoneApp1\PhoneApp1\obj\Debug\PhoneApp1.dll
+D:\Programming\PhoneApp1\PhoneApp1\obj\Debug\PhoneApp1.pdb
+D:\Programming\PhoneApp1\PhoneApp1\Bin\Debug\AppManifest.xaml
+D:\Programming\PhoneApp1\PhoneApp1\Bin\Debug\Properties\WMAppManifest.xml
+D:\Programming\PhoneApp1\PhoneApp1\Bin\Debug\PhoneApp1_Debug_AnyCPU.xap
+D:\Programming\PhoneApp1\PhoneApp1\obj\Debug\XapCacheFile.xml
+D:\Programming\PhoneApp1\PhoneApp1\obj\Debug\Astigmatism.g.cs
+D:\Programming\PhoneApp1\PhoneApp1\obj\Debug\Ask Doctor.g.cs
+D:\Programming\PhoneApp1\PhoneApp1\obj\Debug\Clinics.g.cs
+D:\Programming\PhoneApp1\PhoneApp1\obj\Debug\Construction.g.cs
+D:\Programming\PhoneApp1\PhoneApp1\obj\Debug\Eyecare.g.cs
+D:\Programming\PhoneApp1\PhoneApp1\obj\Debug\Offline.g.cs
+D:\Programming\PhoneApp1\PhoneApp1\obj\Debug\Cataract.g.cs
+D:\Programming\PhoneApp1\PhoneApp1\obj\Debug\blue vision.g.cs
+D:\Programming\PhoneApp1\PhoneApp1\obj\Debug\VisionTestor1.g.cs
+D:\Programming\PhoneApp1\PhoneApp1\Bin\Debug\resources.pri
+D:\Programming\PhoneApp1\PhoneApp1\Bin\Debug\AppxManifest.xml
+D:\Programming\PhoneApp1\PhoneApp1\Bin\Debug\PhoneApp1.build.appxrecipe
+D:\Programming\PhoneApp1\PhoneApp1\obj\Debug\Correct vision.g.cs
+D:\Programming\PhoneApp1\PhoneApp1\obj\Debug\wrong.g.cs
+D:\Programming\PhoneApp1\PhoneApp1\obj\Debug\priconfig.xml
+D:\Programming\PhoneApp1\PhoneApp1\obj\Debug\priconfig.xml.intermediate
+D:\Programming\PhoneApp1\PhoneApp1\obj\Debug\layout.resfiles
+D:\Programming\PhoneApp1\PhoneApp1\obj\Debug\layout.resfiles.intermediate
+D:\Programming\PhoneApp1\PhoneApp1\obj\Debug\resources.resfiles
+D:\Programming\PhoneApp1\PhoneApp1\obj\Debug\resources.resfiles.intermediate
+D:\Programming\PhoneApp1\PhoneApp1\obj\Debug\pri.resfiles
+D:\Programming\PhoneApp1\PhoneApp1\obj\Debug\pri.resfiles.intermediate
+D:\Programming\PhoneApp1\PhoneApp1\obj\Debug\qualifiers.txt
+D:\Programming\PhoneApp1\PhoneApp1\obj\Debug\qualifiers.txt.intermediate
+D:\Programming\PhoneApp1\PhoneApp1\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+D:\Programming\PhoneApp1\PhoneApp1\obj\Debug\ProjectArchitectures.txt
+D:\Programming\PhoneApp1\PhoneApp1\obj\Debug\MDILProjectFiles.xml

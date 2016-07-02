@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Files>
+  <XAPFiles>
+    <File>resources.pri</File>
+    <File>PhoneApp1.dll</File>
+    <File>Assets\AlignmentGrid.png</File>
+    <File>Assets\BadgeLogo.png</File>
+    <File>Assets\cataract.jpg</File>
+    <File>Assets\color blindness.jpg</File>
+    <File>Assets\conj.jpg</File>
+    <File>Assets\cool-nature-template-backgrounds-powerpoint.jpg</File>
+    <File>Assets\delete30.png</File>
+    <File>Assets\download.jpg</File>
+    <File>Assets\download.png</File>
+    <File>Assets\eye hospital.jpg</File>
+    <File>Assets\hyperopia.jpg</File>
+    <File>Assets\leo.jpg</File>
+    <File>Assets\Logo.png</File>
+    <File>Assets\myopia.jpg</File>
+    <File>Assets\picon.png</File>
+    <File>Assets\RP2_Pinout.png</File>
+    <File>Assets\SplashScreen.png</File>
+    <File>Assets\SquareTile150x150.png</File>
+    <File>Assets\SquareTile71x71.png</File>
+    <File>Assets\StoreLogo.png</File>
+    <File>Assets\Tiles\FlipCycleTileLarge.png</File>
+    <File>Assets\Tiles\FlipCycleTileSmall.png</File>
+    <File>Assets\Tiles\IconicTileMediumLarge.png</File>
+    <File>Assets\Tiles\IconicTileSmall.png</File>
+    <File>Assets\tilgangaLogo.png</File>
+    <File>Assets\tripureshwor.jpg</File>
+    <File>Assets\Untitled-1.png</File>
+    <File>Assets\WideLogo.png</File>
+    <File>AppManifest.xaml</File>
+    <File>Assets\ApplicationIcon.png</File>
+    <File>Assets\Tiles\FlipCycleTileMedium.png</File>
+    <File>WMAppManifest.xml</File>
+    <File>AppxManifest.xml</File>
+  </XAPFiles>
+  <APPXFiles />
+</Files>

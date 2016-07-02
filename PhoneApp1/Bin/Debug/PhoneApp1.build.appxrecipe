@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>LEKHAK</Machine>
+    <WindowsUser>Bipin</WindowsUser>
+    <TargetPlatformIdentifier>Windows Phone</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows Phone 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>4ff226bf-86d7-4293-8877-eda6f718bb44</PackageIdentityName>
+    <IntermediateOutputPath>D:\Programming\PhoneApp1\PhoneApp1\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\Programming\PhoneApp1\PhoneApp1\Bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\Programming\PhoneApp1\PhoneApp1\Bin\Debug\PhoneApp1.dll">
+      <PackagePath>PhoneApp1.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Programming\PhoneApp1\PhoneApp1\Assets\AlignmentGrid.png">
+      <PackagePath>Assets\AlignmentGrid.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Programming\PhoneApp1\PhoneApp1\Assets\ApplicationIcon.png">
+      <PackagePath>Assets\ApplicationIcon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Programming\PhoneApp1\PhoneApp1\Assets\BadgeLogo.png">
+      <PackagePath>Assets\BadgeLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Programming\PhoneApp1\PhoneApp1\Assets\delete30.png">
+      <PackagePath>Assets\delete30.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Programming\PhoneApp1\PhoneApp1\Assets\download.png">
+      <PackagePath>Assets\download.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Programming\PhoneApp1\PhoneApp1\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Programming\PhoneApp1\PhoneApp1\Assets\picon.png">
+      <PackagePath>Assets\picon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Programming\PhoneApp1\PhoneApp1\Assets\RP2_Pinout.png">
+      <PackagePath>Assets\RP2_Pinout.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Programming\PhoneApp1\PhoneApp1\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Programming\PhoneApp1\PhoneApp1\Assets\SquareTile150x150.png">
+      <PackagePath>Assets\SquareTile150x150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Programming\PhoneApp1\PhoneApp1\Assets\SquareTile71x71.png">
+      <PackagePath>Assets\SquareTile71x71.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Programming\PhoneApp1\PhoneApp1\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Programming\PhoneApp1\PhoneApp1\Assets\Tiles\FlipCycleTileLarge.png">
+      <PackagePath>Assets\Tiles\FlipCycleTileLarge.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Programming\PhoneApp1\PhoneApp1\Assets\Tiles\FlipCycleTileMedium.png">
+      <PackagePath>Assets\Tiles\FlipCycleTileMedium.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Programming\PhoneApp1\PhoneApp1\Assets\Tiles\FlipCycleTileSmall.png">
+      <PackagePath>Assets\Tiles\FlipCycleTileSmall.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Programming\PhoneApp1\PhoneApp1\Assets\Tiles\IconicTileMediumLarge.png">
+      <PackagePath>Assets\Tiles\IconicTileMediumLarge.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Programming\PhoneApp1\PhoneApp1\Assets\Tiles\IconicTileSmall.png">
+      <PackagePath>Assets\Tiles\IconicTileSmall.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Programming\PhoneApp1\PhoneApp1\Assets\tilgangaLogo.png">
+      <PackagePath>Assets\tilgangaLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Programming\PhoneApp1\PhoneApp1\Assets\Untitled-1.png">
+      <PackagePath>Assets\Untitled-1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Programming\PhoneApp1\PhoneApp1\Assets\WideLogo.png">
+      <PackagePath>Assets\WideLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Programming\PhoneApp1\PhoneApp1\Assets\cataract.jpg">
+      <PackagePath>Assets\cataract.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Programming\PhoneApp1\PhoneApp1\Assets\color blindness.jpg">
+      <PackagePath>Assets\color blindness.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Programming\PhoneApp1\PhoneApp1\Assets\conj.jpg">
+      <PackagePath>Assets\conj.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Programming\PhoneApp1\PhoneApp1\Assets\cool-nature-template-backgrounds-powerpoint.jpg">
+      <PackagePath>Assets\cool-nature-template-backgrounds-powerpoint.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Programming\PhoneApp1\PhoneApp1\Assets\download.jpg">
+      <PackagePath>Assets\download.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Programming\PhoneApp1\PhoneApp1\Assets\eye hospital.jpg">
+      <PackagePath>Assets\eye hospital.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Programming\PhoneApp1\PhoneApp1\Assets\hyperopia.jpg">
+      <PackagePath>Assets\hyperopia.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Programming\PhoneApp1\PhoneApp1\Assets\leo.jpg">
+      <PackagePath>Assets\leo.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Programming\PhoneApp1\PhoneApp1\Assets\myopia.jpg">
+      <PackagePath>Assets\myopia.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Programming\PhoneApp1\PhoneApp1\Assets\tripureshwor.jpg">
+      <PackagePath>Assets\tripureshwor.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Programming\PhoneApp1\PhoneApp1\Bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

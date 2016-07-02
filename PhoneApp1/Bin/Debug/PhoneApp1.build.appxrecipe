@@ -134,6 +134,9 @@
     <AppxPackagedFile Include="D:\Programming\PhoneApp1\PhoneApp1\Assets\protect frm dirt.jpg">
       <PackagePath>Assets\protect frm dirt.jpg</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Programming\PhoneApp1\PhoneApp1\Assets\test hyperopia.jpg">
+      <PackagePath>Assets\test hyperopia.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Programming\PhoneApp1\PhoneApp1\Assets\tripureshwor.jpg">
       <PackagePath>Assets\tripureshwor.jpg</PackagePath>
     </AppxPackagedFile>

@@ -84,3 +84,4 @@ D:\Programming\PhoneApp1\PhoneApp1\obj\Debug\ProjectArchitectures.txt
 D:\Programming\PhoneApp1\PhoneApp1\obj\Debug\MDILProjectFiles.xml
 D:\Programming\PhoneApp1\PhoneApp1\obj\Debug\Donation.g.cs
 D:\Programming\PhoneApp1\PhoneApp1\obj\Debug\ways.g.cs
+D:\Programming\PhoneApp1\PhoneApp1\obj\Debug\HyperMetropia.g.cs

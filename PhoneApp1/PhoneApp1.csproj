@@ -133,6 +133,9 @@
     <Compile Include="Eyecare.xaml.cs">
       <DependentUpon>Eyecare.xaml</DependentUpon>
     </Compile>
+    <Compile Include="HyperMetropia.xaml.cs">
+      <DependentUpon>HyperMetropia.xaml</DependentUpon>
+    </Compile>
     <Compile Include="LocalizedStrings.cs" />
     <Compile Include="FeedPage.xaml.cs">
       <DependentUpon>FeedPage.xaml</DependentUpon>
@@ -227,6 +230,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="HyperMetropia.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -304,6 +311,7 @@
     <Content Include="Assets\SquareTile150x150.png" />
     <Content Include="Assets\SquareTile71x71.png" />
     <Content Include="Assets\StoreLogo.png" />
+    <Content Include="Assets\test hyperopia.jpg" />
     <Content Include="Assets\Tiles\FlipCycleTileLarge.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

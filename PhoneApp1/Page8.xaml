@@ -52,29 +52,27 @@
             	</Run>
             	<Run Text=":"/>
             </TextBlock>
-            <TextBlock HorizontalAlignment="Left" Height="55" Margin="35,271,0,0" TextWrapping="Wrap" Text="University             :" VerticalAlignment="Top" Width="172" Foreground="#FF005B7F"/>
-            <TextBlock HorizontalAlignment="Left" Height="55" Margin="35,316,0,0" TextWrapping="Wrap" Text="E-mail                   :" VerticalAlignment="Top" Width="172" Foreground="#FF005B7F"/>
-            <TextBlock HorizontalAlignment="Left" Height="55" Margin="35,356,0,0" TextWrapping="Wrap" Text="Contact no           :" VerticalAlignment="Top" Width="172" Foreground="#FF005B7F"/>
-            <TextBlock HorizontalAlignment="Left" Height="55" Margin="35,396,0,0" TextWrapping="Wrap" Text="User name            :" VerticalAlignment="Top" Width="172" Foreground="#FF005B7F"/>
-            <TextBlock HorizontalAlignment="Left" Height="55" Margin="35,476,0,0" TextWrapping="Wrap" Text="Re-type Password:" VerticalAlignment="Top" Width="172" Foreground="#FF005B7F"/>
-            <TextBlock HorizontalAlignment="Left" Height="55" Margin="35,436,0,0" TextWrapping="Wrap" Text="Password              :" VerticalAlignment="Top" Width="172" Foreground="#FF005B7F"/>
+            <TextBlock HorizontalAlignment="Left" Height="55" Margin="33,276,0,0" TextWrapping="Wrap" Text="E-mail                   :" VerticalAlignment="Top" Width="172" Foreground="#FF005B7F"/>
+            <TextBlock HorizontalAlignment="Left" Height="55" Margin="33,316,0,0" TextWrapping="Wrap" Text="Contact no           :" VerticalAlignment="Top" Width="172" Foreground="#FF005B7F"/>
+            <TextBlock HorizontalAlignment="Left" Height="55" Margin="33,356,0,0" TextWrapping="Wrap" Text="User name            :" VerticalAlignment="Top" Width="172" Foreground="#FF005B7F"/>
+            <TextBlock HorizontalAlignment="Left" Height="55" Margin="33,440,0,0" TextWrapping="Wrap" Text="Re-type Password:" VerticalAlignment="Top" Width="172" Foreground="#FF005B7F"/>
+            <TextBlock HorizontalAlignment="Left" Height="55" Margin="33,396,0,0" TextWrapping="Wrap" Text="Password              :" VerticalAlignment="Top" Width="172" Foreground="#FF005B7F"/>
 
             <TextBox HorizontalAlignment="Left" Height="56" Margin="188,223,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="241" Foreground="#FFF5693D" Background="#BFCDCDCD" FontSize="12"/>
 
-            <TextBlock HorizontalAlignment="Left" Height="42" Margin="129,536,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="301" Foreground="#FF005B7F">
+            <TextBlock HorizontalAlignment="Left" Height="42" Margin="104,513,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="301" Foreground="#FF005B7F">
             	<Run Text="I agree "/>
             	<Run Text="the "/>
             	<Run Text="terms and condition"/>
             </TextBlock>
 
-            <CheckBox Content="CheckBox" HorizontalAlignment="Left" Height="21" Margin="49,480,0,0" VerticalAlignment="Top" Width="21" BorderBrush="#FF005B7F" Foreground="#FFD11B1B"/>
-            <TextBox HorizontalAlignment="Left" Height="56" Margin="188,259,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="241" Foreground="#FFF5693D" Background="#BFCDCDCD" FontSize="12"/>
-            <TextBox HorizontalAlignment="Left" Height="56" Margin="188,304,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="241" Foreground="#FFF5693D" Background="#BFCDCDCD" FontSize="12"/>
-            <TextBox HorizontalAlignment="Left" Height="56" Margin="188,344,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="241" Foreground="#FFF5693D" Background="#BFCDCDCD" FontSize="12"/>
-            <TextBox HorizontalAlignment="Left" Height="56" Margin="189,386,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="241" Foreground="#FFF5693D" Background="#BFCDCDCD" FontSize="12"/>
-            <PasswordBox HorizontalAlignment="Left" Height="55" Margin="188,426,0,0"  VerticalAlignment="Top" Width="241" FontSize="10" Background="#BFCDCDCD"/>
-            <PasswordBox HorizontalAlignment="Left" Height="55" Margin="188,459,0,0"  VerticalAlignment="Top" Width="241" FontSize="10" Background="#BFCDCDCD"/>
-            <CheckBox Content="" HorizontalAlignment="Left" Height="68" Margin="72,518,0,0" VerticalAlignment="Top" Width="56" Background="#FF005B7F" BorderBrush="#FF150E0E" Foreground="Black"/>
+            <CheckBox Content="CheckBox" HorizontalAlignment="Left" Height="21" Margin="47,440,0,0" VerticalAlignment="Top" Width="21" BorderBrush="#FF005B7F" Foreground="#FFD11B1B"/>
+            <TextBox HorizontalAlignment="Left" Height="56" Margin="186,264,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="241" Foreground="#FFF5693D" Background="#BFCDCDCD" FontSize="12"/>
+            <TextBox HorizontalAlignment="Left" Height="56" Margin="186,304,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="241" Foreground="#FFF5693D" Background="#BFCDCDCD" FontSize="12"/>
+            <TextBox HorizontalAlignment="Left" Height="56" Margin="187,346,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="241" Foreground="#FFF5693D" Background="#BFCDCDCD" FontSize="12"/>
+            <PasswordBox HorizontalAlignment="Left" Height="55" Margin="186,386,0,0"  VerticalAlignment="Top" Width="241" FontSize="10" Background="#BFCDCDCD"/>
+            <PasswordBox HorizontalAlignment="Left" Height="55" Margin="186,419,0,0"  VerticalAlignment="Top" Width="241" FontSize="10" Background="#BFCDCDCD"/>
+            <CheckBox Content="" HorizontalAlignment="Left" Height="68" Margin="47,495,0,0" VerticalAlignment="Top" Width="56" Background="#FF005B7F" BorderBrush="#FF150E0E" Foreground="Black"/>
             <HyperlinkButton x:Name="submit" Content="Submit" HorizontalAlignment="Left" Height="54" Margin="112,582,0,0" VerticalAlignment="Top" Width="242" Background="#FF809BB2" Click="submit_Click"/>
         </Grid>
     </Grid>

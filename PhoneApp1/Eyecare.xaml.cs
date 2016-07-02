@@ -7,6 +7,7 @@ using System.Windows.Controls;
 using System.Windows.Navigation;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
+using Microsoft.Phone.Tasks;
 
 namespace PhoneApp1
 {
@@ -15,6 +16,16 @@ namespace PhoneApp1
         public Eyecare()
         {
             InitializeComponent();
+        }
+
+        private void CALL_Click(object sender, RoutedEventArgs e)
+        {
+            PhoneCallTask phoneCallTask = new PhoneCallTask();
+
+            phoneCallTask.PhoneNumber = "9843223439";
+            phoneCallTask.DisplayName = "Tilganga";
+
+            phoneCallTask.Show();
         }
     }
 }

@@ -31,6 +31,7 @@
 
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+            <TextBlock x:Name="textBlock" Foreground="White" HorizontalAlignment="Left" Height="80" Margin="10,517,0,0" TextWrapping="Wrap" Text="These tests shall under no conditions be used as confirmatory tests. They are only to aid, screen possible symptoms. We advice you to see a doctor" VerticalAlignment="Top" Width="446"/>
 
         </Grid>
         <Rectangle HorizontalAlignment="Left" Height="509" Margin="10,0,0,0" Grid.Row="1" Stroke="#FF020202" StrokeThickness="0" VerticalAlignment="Top" Width="458" Fill="White"/>

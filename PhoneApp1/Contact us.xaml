@@ -110,12 +110,12 @@
             		</Run.Foreground>
             	</Run>
             </TextBlock>
-            <TextBox HorizontalAlignment="Left" Height="59" Margin="135,426,0,0" TextWrapping="Wrap" Text="    Tribhuwan" VerticalAlignment="Top" Width="294" Foreground="{x:Null}" Background="{x:Null}" FontSize="12" BorderBrush="#BF000000"/>
+            <TextBox HorizontalAlignment="Left" Height="59" Margin="135,426,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="294" Foreground="Black" Background="{x:Null}" FontSize="12" BorderBrush="#BF000000"/>
             <Button x:Name="button1" Content="SEND" HorizontalAlignment="Left" Height="57" Margin="304,629,0,0" VerticalAlignment="Top" Width="125" FontSize="12" Foreground="#FF3C3F5D" Background="#FFAEABAB"/>
             <HyperlinkButton Content="HOME"  Foreground="White" HorizontalAlignment="Left" Height="32" Margin="13,0,0,0" VerticalAlignment="Top" Width="120" Click="HyperlinkButton_Click"/>
-            <TextBox HorizontalAlignment="Left" Height="59" Margin="135,472,0,0" TextWrapping="Wrap" Text="    Tribhuwan" VerticalAlignment="Top" Width="294" Foreground="{x:Null}" Background="{x:Null}" FontSize="12" BorderBrush="#BF000000"/>
-            <TextBox HorizontalAlignment="Left" Height="59" Margin="135,521,0,0" TextWrapping="Wrap" Text="    Tribhuwan" VerticalAlignment="Top" Width="294" Foreground="{x:Null}" Background="{x:Null}" FontSize="12" BorderBrush="#BF000000"/>
-            <TextBox HorizontalAlignment="Left" Height="59" Margin="135,565,0,0" TextWrapping="Wrap" Text="    Tribhuwan" VerticalAlignment="Top" Width="294" Foreground="{x:Null}" Background="{x:Null}" FontSize="12" BorderBrush="#BF000000"/>
+            <TextBox HorizontalAlignment="Left" Height="59" Margin="135,472,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="294" Foreground="Black" Background="{x:Null}" FontSize="12" BorderBrush="#BF000000"/>
+            <TextBox HorizontalAlignment="Left" Height="59" Margin="135,519,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="294" Foreground="Black" Background="{x:Null}" FontSize="12" BorderBrush="#BF000000"/>
+            <TextBox HorizontalAlignment="Left" Height="59" Margin="135,565,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="294" Foreground="Black" Background="{x:Null}" FontSize="12" BorderBrush="#BF000000"/>
 
 
         </Grid>

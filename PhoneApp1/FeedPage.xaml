@@ -45,7 +45,7 @@
         <!--TitlePanel contains the name of the application and page title-->
         <StackPanel x:Name="TitlePanel"  Grid.Row="0" Margin="12,17,0,28">
             <TextBlock Text="IRIS &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Complete Eye Care" Style="{StaticResource PhoneTextNormalStyle}" Margin="12,0" Foreground="White"/>
-            <TextBlock Text="Home" FontSize="72" Margin="8.986,-7,89.989,0" Style="{StaticResource PhoneTextTitle1Style}"  Foreground="White" RenderTransformOrigin="0.5,0.5" Height="82.966" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <TextBlock Text="Home" FontSize="72" Margin="8.981,-7,252.016,0" Style="{StaticResource PhoneTextTitle1Style}"  Foreground="White" RenderTransformOrigin="0.5,0.5" Height="86.966" UseLayoutRounding="False" d:LayoutRounding="Auto">
                 <TextBlock.RenderTransform>
                     <CompositeTransform Rotation="-0.129"/>
                 </TextBlock.RenderTransform>
@@ -55,12 +55,13 @@
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Margin="10,125,10,19" Grid.RowSpan="2">
 
-            <HyperlinkButton x:Name="EyeCare"  Foreground="White" Content="Eye Care" HorizontalAlignment="Left" Height="178" Margin="-8,46,0,0" VerticalAlignment="Top" Width="247" Background="#FFFF8000" Click="EyeCare_Click"/>
-            <HyperlinkButton x:Name="Doctor"  Foreground="White" Content="Doctors'&#xD;&#xA;Help"  HorizontalAlignment="Left" Height="178" Margin="218,46,-5,0" VerticalAlignment="Top" Width="247" Background="#FFFF8000" Click="Doctor_Click" BorderThickness="5"/>
-            <HyperlinkButton x:Name="YellowPage"   Foreground="White"  Content="Clinics Yellow &#xD;&#xA;Pages" HorizontalAlignment="Left" Height="178" Margin="-6,229,0,0" VerticalAlignment="Top" Width="247" Background="#FFFF8000" Click="YellowPage_Click"/>
-            <HyperlinkButton x:Name="Shop"  Foreground="White" Content="Specs Shop" HorizontalAlignment="Left" Height="178" Margin="220,229,-7,0" VerticalAlignment="Top" Width="247" Background="#FFFF8000" Click="Shop_Click"/>
-            <HyperlinkButton x:Name="Test"  Foreground="White" Content="Vision Test" HorizontalAlignment="Left" Height="178" Margin="-8,412,0,0" VerticalAlignment="Top" Width="247" Background="#FFFF8000" Click="Test_Click"/>
-            <HyperlinkButton x:Name="Contact"  Foreground="White" Content="Contact Us" HorizontalAlignment="Left" Height="178" Margin="218,412,-5,0" VerticalAlignment="Top" Width="247" Background="#FFFF8000" Click="Contact_Click"/>
+            <HyperlinkButton x:Name="EyeCare"  Foreground="White" Content="Eye Care" HorizontalAlignment="Left" Height="178" Margin="-8,-2,0,0" VerticalAlignment="Top" Width="247" Background="#FFFF8000" Click="EyeCare_Click"/>
+            <HyperlinkButton x:Name="Doctor"  Foreground="White" Content="Doctors'&#xD;&#xA;Help"  HorizontalAlignment="Left" Height="178" Margin="218,-2,-5,0" VerticalAlignment="Top" Width="247" Background="#FFFF8000" Click="Doctor_Click" BorderThickness="5"/>
+            <HyperlinkButton x:Name="YellowPage"   Foreground="White"  Content="Clinics Yellow &#xD;&#xA;Pages" HorizontalAlignment="Left" Height="178" Margin="-6,181,0,0" VerticalAlignment="Top" Width="247" Background="#FFFF8000" Click="YellowPage_Click"/>
+            <HyperlinkButton x:Name="Shop"  Foreground="White" Content="Specs Shop" HorizontalAlignment="Left" Height="178" Margin="220,181,-7,0" VerticalAlignment="Top" Width="247" Background="#FFFF8000" Click="Shop_Click"/>
+            <HyperlinkButton x:Name="Test"  Foreground="White" Content="Vision Test" HorizontalAlignment="Left" Height="178" Margin="-8,364,0,0" VerticalAlignment="Top" Width="247" Background="#FFFF8000" Click="Test_Click"/>
+            <HyperlinkButton x:Name="Contact"  Foreground="White" Content="Contact Us" HorizontalAlignment="Left" Height="178" Margin="218,364,-5,0" VerticalAlignment="Top" Width="247" Background="#FFFF8000" Click="Contact_Click"/>
+            <HyperlinkButton x:Name="Donation" Content="Eye Donation" HorizontalAlignment="Left" Height="74" Margin="-6,547,-5,0" VerticalAlignment="Top" Width="471" Background="#FFE43636" Click="Donation_Click"/>
 
 
         </Grid>

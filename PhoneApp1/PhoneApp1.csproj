@@ -127,6 +127,9 @@
     <Compile Include="Defects.xaml.cs">
       <DependentUpon>Defects.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Donation.xaml.cs">
+      <DependentUpon>Donation.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Eyecare.xaml.cs">
       <DependentUpon>Eyecare.xaml</DependentUpon>
     </Compile>
@@ -208,6 +211,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Donation.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Eyecare.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -285,6 +292,7 @@
     <Content Include="Assets\drink water.jpg" />
     <Content Include="Assets\eye hospital.jpg" />
     <Content Include="Assets\eye-symbol-icon-20733.png" />
+    <Content Include="Assets\Human_eye_cross-sectional_view_grayscale.png" />
     <Content Include="Assets\hyperopia.jpg" />
     <Content Include="Assets\leo.jpg" />
     <Content Include="Assets\Logo.png" />

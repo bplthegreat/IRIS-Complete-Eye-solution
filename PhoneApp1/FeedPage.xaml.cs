@@ -55,6 +55,11 @@ namespace PhoneApp1
             NavigationService.Navigate(new Uri("/Construction.xaml", UriKind.Relative));
         }
 
+        private void Donation_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new Uri("/Donation.xaml", UriKind.Relative));
+        }
+
 
 
 

@@ -38,30 +38,30 @@
             <Grid Height="1002" Width="438">
                 <Rectangle HorizontalAlignment="Left" Height="979" Margin="-9,1,-9,0" Stroke="Black" VerticalAlignment="Top" Width="456" Fill="White"/>
                 <TextBlock HorizontalAlignment="Left" Height="113" Margin="24,59,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="177">
-            		<Run Text="Name                   :            ">
-            			<Run.Foreground>
-            				<SolidColorBrush Color="#FF005B7F">
-            					<SolidColorBrush.RelativeTransform>
-            						<MatrixTransform Matrix="Identity"/>
-            					</SolidColorBrush.RelativeTransform>
-            					<SolidColorBrush.Transform>
-            						<MatrixTransform Matrix="Identity"/>
-            					</SolidColorBrush.Transform>
-            				</SolidColorBrush>
-            			</Run.Foreground>
-            		</Run>
-            		<Run Text=":"/>
+                	<Run Text="Name                   :       ">
+                		<Run.Foreground>
+                			<SolidColorBrush Color="#FF005B7F">
+                				<SolidColorBrush.RelativeTransform>
+                					<MatrixTransform Matrix="Identity"/>
+                				</SolidColorBrush.RelativeTransform>
+                				<SolidColorBrush.Transform>
+                					<MatrixTransform Matrix="Identity"/>
+                				</SolidColorBrush.Transform>
+                			</SolidColorBrush>
+                		</Run.Foreground>
+                	</Run>
+                	<Run Text=":"/>
                 </TextBlock>
                 <TextBlock HorizontalAlignment="Left" Height="113" Margin="24,116,0,0" TextWrapping="Wrap" Text="E-mail                   :" VerticalAlignment="Top" Width="177" Foreground="#FF005B7F"/>
                 <TextBlock HorizontalAlignment="Left" Height="52" Margin="24,177,0,0" TextWrapping="Wrap" Text="Discription            :" VerticalAlignment="Top" Width="177" Foreground="#FF005B7F"/>
 
                 <TextBox HorizontalAlignment="Left" Height="68" Margin="181,43,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="248" Foreground="#FFF5693D" Background="#BFCDCDCD" FontSize="12"/>
-                <TextBox HorizontalAlignment="Left" Height="360" Margin="0,197,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="428" Foreground="#FFF5693D" Background="#BFCDCDCD" FontSize="12"/>
+                <TextBox HorizontalAlignment="Left" Height="322" Margin="0,197,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="428" Foreground="#FFF5693D" Background="#BFCDCDCD" FontSize="12"/>
                 <TextBox HorizontalAlignment="Left" Height="68" Margin="180,104,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="248" Foreground="#FFF5693D" Background="#BFCDCDCD" FontSize="12"/>
-                <TextBlock HorizontalAlignment="Left" Height="52" Margin="24,557,0,0" TextWrapping="Wrap" Text="Photos                  :" VerticalAlignment="Top" Width="177" Foreground="#FF005B7F"/>
-                <TextBox HorizontalAlignment="Left" Height="68" Margin="24,577,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="404" Foreground="#FFF5693D" Background="#BFCDCDCD" FontSize="12"/>
-                <HyperlinkButton Content="Choose&#xD;&#xA;File" HorizontalAlignment="Left" Height="69" Margin="259,668,0,0" VerticalAlignment="Top" Width="169" Background="#FF919191"/>
-                <HyperlinkButton Content="SEND" HorizontalAlignment="Left" Height="69" Margin="32,668,0,0" VerticalAlignment="Top" Width="169" Background="#FF919191"/>
+                <TextBlock HorizontalAlignment="Left" Height="52" Margin="24,511,0,0" TextWrapping="Wrap" Text="Photos                  :" VerticalAlignment="Top" Width="177" Foreground="#FF005B7F"/>
+                <TextBox HorizontalAlignment="Left" Height="68" Margin="24,531,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="404" Foreground="#FFF5693D" Background="#BFCDCDCD" FontSize="12"/>
+                <HyperlinkButton Content="Choose&#xD;&#xA;File" HorizontalAlignment="Left" Height="69" Margin="260,604,0,0" VerticalAlignment="Top" Width="169" Background="#FF919191"/>
+                <HyperlinkButton Content="SEND" HorizontalAlignment="Left" Height="69" Margin="33,604,0,0" VerticalAlignment="Top" Width="169" Background="#FF919191"/>
             </Grid>
         </ScrollViewer>
     </Grid>

@@ -36,8 +36,8 @@
 
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
-           
-                    <HyperlinkButton Content="EYE"  Foreground="White" HorizontalAlignment="Left" Margin="134,-24,0,686" Width="116" Background="#FF515151" BorderThickness="3"/>
+
+            <HyperlinkButton Content="EYE"  Foreground="White" HorizontalAlignment="Left" Margin="134,-24,0,686" Width="116" Background="#FF515151" BorderThickness="3"/>
             <HyperlinkButton Content="DEFECTS"  Foreground="White" HorizontalAlignment="Left" Margin="230,-26,0,688" Width="116" Background="{x:Null}" BorderThickness="3" Click="HyperlinkButton_Click"/>
             <HyperlinkButton Content="REMEDIES"  Foreground="White" HorizontalAlignment="Left" Height="34" Margin="330,-26,-6,688" VerticalAlignment="Bottom" Width="132" Background="{x:Null}" BorderThickness="3" Click="HyperlinkButton_Click_2"/>
             <HyperlinkButton Content="HOME"  Foreground="White" HorizontalAlignment="Left" Margin="-16,-24,0,686" Width="116" Background="{x:Null}" BorderThickness="3" Click="HyperlinkButton_Click_1"/>
@@ -45,14 +45,26 @@
         <Grid HorizontalAlignment="Left" Height="50" Margin="-1,-176,0,0" VerticalAlignment="Top" Width="470"/>
         <!-- Looking for ko column-->
         <Rectangle Fill="#FFE8E8E8" HorizontalAlignment="Left" Height="303" Margin="20,23,0,0" Grid.Row="1" VerticalAlignment="Top" Width="440" StrokeThickness="0" Stroke="#FF020202"/>
-        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="EYE" VerticalAlignment="Top" Margin="379,40,0,0" Grid.Row="1" Height="47" Width="74" Foreground="#FF005B7F" FontFamily="Monotype Corsiva" FontSize="36"/>
-        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="DETAILS" VerticalAlignment="Top" Margin="40,169,0,0" Grid.Row="1" Foreground="#FFF5693D" FontFamily="Monotype Corsiva" FontSize="21" Width="413" Height="144"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="EYES" VerticalAlignment="Top" Margin="257,57,0,0" Grid.Row="1" Height="76" Width="196" Foreground="#FF005B7F" FontFamily="Monotype Corsiva" FontSize="72"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="40,169,0,0" Grid.Row="1" Foreground="#FFF5693D" FontFamily="Monotype Corsiva" FontSize="21" Width="413" Height="144">
+        	<Run Foreground="Black" FontSize="20" FontFamily="Segoe WP" Text="Eyes are the organs of vision. They detect light and convert it into electro-chemical impulses in neurons. In higher organisms, the eye is a complex optical system which collects light from the surrounding environment."/>
+        </TextBlock>
         <Rectangle Fill="#FFE8E8E8" HorizontalAlignment="Left" Height="303" Margin="20,353,0,0" Grid.Row="1" VerticalAlignment="Top" Width="440" StrokeThickness="0" Stroke="#FF020202"/>
 
         <!-- Has ko column-->
-        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="RETINA" VerticalAlignment="Top" Margin="322,378,0,0" Grid.Row="1" Height="47" Width="131" Foreground="#FF005B7F" FontFamily="Monotype Corsiva" FontSize="36"/>
-        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="DETAILS" VerticalAlignment="Top" Margin="40,452,0,0" Grid.Row="1" Foreground="#FFF5693D" FontFamily="Monotype Corsiva" FontSize="21" Width="379" Height="182"/>
         <HyperlinkButton x:Name="eye" Content="" HorizontalAlignment="Left" Height="303" Margin="20,23,0,0" Grid.Row="1" VerticalAlignment="Top" Width="440" Click="eye_Click"/>
+        <Ellipse HorizontalAlignment="Left" Height="148" Margin="40,23,0,0" Grid.Row="1" Stroke="#FF020202" StrokeThickness="0" VerticalAlignment="Top" Width="148">
+            <Ellipse.Fill>
+                <ImageBrush Stretch="Fill" ImageSource="/Assets/protect frm dirt.jpg"/>
+            </Ellipse.Fill>
+        </Ellipse>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="RETINA" VerticalAlignment="Top" Margin="188,408,0,0" Grid.Row="1" Height="76" Width="265" Foreground="#FF005B7F" FontFamily="Monotype Corsiva" FontSize="72"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="40,520,0,0" Grid.Row="1" Foreground="Black" FontFamily="Monotype Corsiva" FontSize="21" Width="413" Height="144" Text="The retina is the third and inner coat of the eye which is a light-sensitive layer of tissue. The optics of the eye create an image of the visual world on the retina (through the cornea and lens), which serves much the same function as the film in a camera."/>
+        <Ellipse HorizontalAlignment="Left" Height="148" Margin="40,374,0,0" Grid.Row="1" Stroke="#FF020202" StrokeThickness="0" VerticalAlignment="Top" Width="148">
+            <Ellipse.Fill>
+                <ImageBrush Stretch="Uniform" ImageSource="/Assets/Human_eye_cross-sectional_view_grayscale.png"/>
+            </Ellipse.Fill>
+        </Ellipse>
 
 
 

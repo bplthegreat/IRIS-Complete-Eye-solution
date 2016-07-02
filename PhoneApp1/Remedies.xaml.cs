@@ -46,5 +46,10 @@ namespace PhoneApp1
         {
             NavigationService.Navigate(new Uri("/Remedies.xaml", UriKind.Relative));
         }
+
+        private void button_GlassLens_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new Uri("/ways.xaml", UriKind.Relative));
+        }
     }
 }

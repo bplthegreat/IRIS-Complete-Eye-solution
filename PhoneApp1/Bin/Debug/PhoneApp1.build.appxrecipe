@@ -36,6 +36,12 @@
     <AppxPackagedFile Include="D:\Programming\PhoneApp1\PhoneApp1\Assets\download.png">
       <PackagePath>Assets\download.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Programming\PhoneApp1\PhoneApp1\Assets\eye-symbol-icon-20733.png">
+      <PackagePath>Assets\eye-symbol-icon-20733.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Programming\PhoneApp1\PhoneApp1\Assets\Human_eye_cross-sectional_view_grayscale.png">
+      <PackagePath>Assets\Human_eye_cross-sectional_view_grayscale.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Programming\PhoneApp1\PhoneApp1\Assets\Logo.png">
       <PackagePath>Assets\Logo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
@@ -86,8 +92,14 @@
     <AppxPackagedFile Include="D:\Programming\PhoneApp1\PhoneApp1\Assets\WideLogo.png">
       <PackagePath>Assets\WideLogo.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Programming\PhoneApp1\PhoneApp1\Assets\astigmatism.jpg">
+      <PackagePath>Assets\astigmatism.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Programming\PhoneApp1\PhoneApp1\Assets\cataract.jpg">
       <PackagePath>Assets\cataract.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Programming\PhoneApp1\PhoneApp1\Assets\clean eyes.jpg">
+      <PackagePath>Assets\clean eyes.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Programming\PhoneApp1\PhoneApp1\Assets\color blindness.jpg">
       <PackagePath>Assets\color blindness.jpg</PackagePath>
@@ -95,11 +107,17 @@
     <AppxPackagedFile Include="D:\Programming\PhoneApp1\PhoneApp1\Assets\conj.jpg">
       <PackagePath>Assets\conj.jpg</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Programming\PhoneApp1\PhoneApp1\Assets\contact vs glass.jpg">
+      <PackagePath>Assets\contact vs glass.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Programming\PhoneApp1\PhoneApp1\Assets\cool-nature-template-backgrounds-powerpoint.jpg">
       <PackagePath>Assets\cool-nature-template-backgrounds-powerpoint.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Programming\PhoneApp1\PhoneApp1\Assets\download.jpg">
       <PackagePath>Assets\download.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Programming\PhoneApp1\PhoneApp1\Assets\drink water.jpg">
+      <PackagePath>Assets\drink water.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Programming\PhoneApp1\PhoneApp1\Assets\eye hospital.jpg">
       <PackagePath>Assets\eye hospital.jpg</PackagePath>
@@ -112,6 +130,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Programming\PhoneApp1\PhoneApp1\Assets\myopia.jpg">
       <PackagePath>Assets\myopia.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Programming\PhoneApp1\PhoneApp1\Assets\protect frm dirt.jpg">
+      <PackagePath>Assets\protect frm dirt.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Programming\PhoneApp1\PhoneApp1\Assets\tripureshwor.jpg">
       <PackagePath>Assets\tripureshwor.jpg</PackagePath>

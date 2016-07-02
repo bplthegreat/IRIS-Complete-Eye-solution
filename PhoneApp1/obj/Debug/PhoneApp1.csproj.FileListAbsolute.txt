@@ -44,11 +44,6 @@ D:\Programming\PhoneApp1\PhoneApp1\obj\Debug\FeedPage.g.cs
 D:\Programming\PhoneApp1\PhoneApp1\obj\Debug\EYE.g.cs
 D:\Programming\PhoneApp1\PhoneApp1\obj\Debug\MainPage.g.cs
 D:\Programming\PhoneApp1\PhoneApp1\obj\Debug\Page2.g.cs
-D:\Programming\PhoneApp1\PhoneApp1\obj\Debug\Page3.g.cs
-D:\Programming\PhoneApp1\PhoneApp1\obj\Debug\Page4.g.cs
-D:\Programming\PhoneApp1\PhoneApp1\obj\Debug\Page5.g.cs
-D:\Programming\PhoneApp1\PhoneApp1\obj\Debug\Page6.g.cs
-D:\Programming\PhoneApp1\PhoneApp1\obj\Debug\Page7.g.cs
 D:\Programming\PhoneApp1\PhoneApp1\obj\Debug\Page8.g.cs
 D:\Programming\PhoneApp1\PhoneApp1\obj\Debug\profile.g.cs
 D:\Programming\PhoneApp1\PhoneApp1\obj\Debug\Remedies.g.cs
@@ -61,7 +56,6 @@ D:\Programming\PhoneApp1\PhoneApp1\Bin\Debug\AppManifest.xaml
 D:\Programming\PhoneApp1\PhoneApp1\Bin\Debug\Properties\WMAppManifest.xml
 D:\Programming\PhoneApp1\PhoneApp1\Bin\Debug\PhoneApp1_Debug_AnyCPU.xap
 D:\Programming\PhoneApp1\PhoneApp1\obj\Debug\XapCacheFile.xml
-D:\Programming\PhoneApp1\PhoneApp1\obj\Debug\Astigmatism.g.cs
 D:\Programming\PhoneApp1\PhoneApp1\obj\Debug\Ask Doctor.g.cs
 D:\Programming\PhoneApp1\PhoneApp1\obj\Debug\Clinics.g.cs
 D:\Programming\PhoneApp1\PhoneApp1\obj\Debug\Construction.g.cs
@@ -88,3 +82,5 @@ D:\Programming\PhoneApp1\PhoneApp1\obj\Debug\qualifiers.txt.intermediate
 D:\Programming\PhoneApp1\PhoneApp1\obj\Debug\MultipleQualifiersPerDimensionFound.txt
 D:\Programming\PhoneApp1\PhoneApp1\obj\Debug\ProjectArchitectures.txt
 D:\Programming\PhoneApp1\PhoneApp1\obj\Debug\MDILProjectFiles.xml
+D:\Programming\PhoneApp1\PhoneApp1\obj\Debug\Donation.g.cs
+D:\Programming\PhoneApp1\PhoneApp1\obj\Debug\ways.g.cs

@@ -47,7 +47,7 @@
                 <ImageBrush Stretch="Fill" ImageSource="/Assets/clean eyes.jpg"/>
             </Button.Background>
         </Button>
-        <Button x:Name="button_GlassLens"  Content="Glasses Or Lenses?" HorizontalAlignment="Left" Height="173" Margin="30,406,0,0" VerticalAlignment="Top" Width="424" Opacity="0.5">
+        <Button x:Name="button_GlassLens"  Content="Glasses Or Lenses?" HorizontalAlignment="Left" Height="173" Margin="30,406,0,0" VerticalAlignment="Top" Width="424" Opacity="0.5" Click="button_GlassLens_Click">
             <Button.Background>
                 <ImageBrush Stretch="Fill" ImageSource="/Assets/contact vs glass.jpg"/>
             </Button.Background>

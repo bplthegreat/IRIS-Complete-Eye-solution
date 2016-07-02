@@ -37,26 +37,11 @@
                 </Rectangle.Fill>
             </Rectangle>
         </Grid>
-        <TextBlock HorizontalAlignment="Left" Height="35" Margin="12,-255,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="389">
-        	<Run Text="-------------------------------------------------">
-        		<Run.Foreground>
-        			<SolidColorBrush Color="#FF005B7F">
-        				<SolidColorBrush.RelativeTransform>
-        					<MatrixTransform Matrix="Identity"/>
-        				</SolidColorBrush.RelativeTransform>
-        				<SolidColorBrush.Transform>
-        					<MatrixTransform Matrix="Identity"/>
-        				</SolidColorBrush.Transform>
-        			</SolidColorBrush>
-        		</Run.Foreground>
-        	</Run>
-        </TextBlock>
         <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Height="230" Margin="42,310,0,-379" TextWrapping="Wrap" VerticalAlignment="Top" Width="396" Foreground="#FF3C3333" FontSize="14">
         	<Run Text="Tilganga Eye Clinic"/>
         	<LineBreak/>
         	<Run Text="Tilganga, Kathmandu, Nepal"/>
         	<LineBreak/>
-        	<Run Text="01-4********"/>
         	<LineBreak/>
         	<Run Text="-----------------------------------------------"/>
         	<LineBreak/>
@@ -80,7 +65,7 @@
             	<LineBreak/>
             	<Run/>
             	<LineBreak/>
-            	<Run Text="    Cataract/IOL including Phaco emulsification"/>
+            	<Run Text="     Cataract/IOL including Phacoemulsification"/>
             	<LineBreak/>
             	<Run Text="    Yag Laser treatment"/>
             	<LineBreak/>
@@ -183,6 +168,7 @@
             	<Run Text="    Serology"/>
             </TextBlock>
         </ScrollViewer>
+        <HyperlinkButton x:Name="CALL" Content="9843223439" HorizontalAlignment="Left" Height="19" Margin="27,349,0,-207" VerticalAlignment="Top" Width="94" FontSize="12" Foreground="#FF383838" Click="CALL_Click"/>
     </Grid>
 
 </phone:PhoneApplicationPage>

@@ -1,0 +1,76 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="PhoneApp1.Donation"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot">
+        <Grid.Background>
+            <ImageBrush Stretch="Fill" ImageSource="/Assets/cool-nature-template-backgrounds-powerpoint.jpg"/>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock Text="Donation" Style="{StaticResource PhoneTextNormalStyle}" Margin="362,0,12,0"/>
+        </StackPanel>
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+            <Button x:Name="button" Content="Suscribe" HorizontalAlignment="Left" Height="85" Margin="108,69,0,0" VerticalAlignment="Top" Width="226"/>
+            <Rectangle HorizontalAlignment="Left" Height="443" Margin="3,203,0,0" Stroke="Black" VerticalAlignment="Top" Width="444" Fill="White"/>
+            <TextBlock HorizontalAlignment="Left" Height="55" Margin="35,213,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="172">
+            	<Run Text="Name                   :            ">
+            		<Run.Foreground>
+            			<SolidColorBrush Color="#FF005B7F">
+            				<SolidColorBrush.RelativeTransform>
+            					<MatrixTransform Matrix="Identity"/>
+            				</SolidColorBrush.RelativeTransform>
+            				<SolidColorBrush.Transform>
+            					<MatrixTransform Matrix="Identity"/>
+            				</SolidColorBrush.Transform>
+            			</SolidColorBrush>
+            		</Run.Foreground>
+            	</Run>
+            	<Run Text=":"/>
+            </TextBlock>
+            <TextBlock HorizontalAlignment="Left" Height="55" Margin="33,258,0,0" TextWrapping="Wrap" Text="Address&#x9;              &#x9;:" VerticalAlignment="Top" Width="172" Foreground="#FF005B7F"/>
+            <TextBlock HorizontalAlignment="Left" Height="55" Margin="33,299,0,0" TextWrapping="Wrap" Text="Contact no           :" VerticalAlignment="Top" Width="172" Foreground="#FF005B7F"/>
+            <TextBlock HorizontalAlignment="Left" Height="55" Margin="33,341,0,0" TextWrapping="Wrap" Text="Hospital Name     :" VerticalAlignment="Top" Width="172" Foreground="#FF005B7F"/>
+            <TextBox HorizontalAlignment="Left" Height="56" Margin="188,205,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="241" Foreground="#FFF5693D" Background="#BFCDCDCD" FontSize="12"/>
+            <TextBlock HorizontalAlignment="Left" Height="42" Margin="104,483,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="323" Foreground="#FF005B7F">
+            	<Run Text="I agree to "/>
+            	<Run Text="the "/>
+            	<Run Text="terms and condition"/>
+            </TextBlock>
+            <TextBox HorizontalAlignment="Left" Height="56" Margin="186,246,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="241" Foreground="#FFF5693D" Background="#BFCDCDCD" FontSize="12"/>
+            <TextBox HorizontalAlignment="Left" Height="56" Margin="186,287,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="241" Foreground="#FFF5693D" Background="#BFCDCDCD" FontSize="12"/>
+            <TextBox HorizontalAlignment="Left" Height="56" Margin="187,331,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="241" Foreground="#FFF5693D" Background="#BFCDCDCD" FontSize="12"/>
+            <CheckBox Content="" HorizontalAlignment="Left" Height="68" Margin="47,465,0,0" VerticalAlignment="Top" Width="56" Background="#FF005B7F" BorderBrush="#FF150E0E" Foreground="Black"/>
+            <HyperlinkButton x:Name="submit" Content="Submit" HorizontalAlignment="Left" Height="54" Margin="112,564,0,0" VerticalAlignment="Top" Width="242" Background="#FF809BB2" Click="submit_Click"/>
+            <TextBlock HorizontalAlignment="Left" Height="55" Margin="32,384,0,0" TextWrapping="Wrap" Text="Hospital Address  :" VerticalAlignment="Top" Width="172" Foreground="#FF005B7F"/>
+            <TextBox HorizontalAlignment="Left" Height="56" Margin="186,374,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="241" Foreground="#FFF5693D" Background="#BFCDCDCD" FontSize="12"/>
+
+        </Grid>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Height="80" Margin="7,0,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="461">
+        	<Run Text="If you are looking for an eye donor and want us to"/>
+        	<LineBreak/>
+        	<Run Text="notify you when one is found, Press the Suscribe Button."/>
+        </TextBlock>
+        <TextBlock x:Name="textBlock_Copy" HorizontalAlignment="Left" Height="30" Margin="2,168,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="461" Text="For Eye Donation Please Fill Up the Form"/>
+    </Grid>
+
+</phone:PhoneApplicationPage>
